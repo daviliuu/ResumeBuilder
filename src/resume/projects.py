@@ -14,13 +14,15 @@ class Projects(ResumePart):
             tools = project["tools"]
             time = project["time"]
             items = project["items"]
+            link = "" if "link" not in project else f"""| {project["link"]}"""
 
             content += f"""
             #grid(
-                columns: (6fr, 1fr, 3fr),
+                columns: (6.5fr, 0.5fr, 3fr),
                 [
                      #text(weight: "bold")[{name}]
                      #text()[ | {", ".join(tools)}]
+                     #text()[{link}]
                 ],
                 text()[],
                 [

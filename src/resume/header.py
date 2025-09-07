@@ -10,13 +10,14 @@ class Header(ResumePart):
         self.subheaders = config_map["subheaders"]
 
     def to_typst_str(self) -> str:
-        header = f"""
-        #set align(center)
-        #text({const.NAME_SIZE})[{self.name}]
-        #text({const.CONTACT})[#raw("
-        """
+        content = ""
         for idx, subheader in enumerate(self.subheaders):
             if idx > 0:
-                header += " | "
-            header += subheader
-        return header + "\")]"
+                content += " | "
+            content += f"""#raw("{subheader}")"""
+
+        return f"""
+        #set align(center)
+        #text({const.NAME_SIZE})[{self.name}] \\
+        #text({const.CONTACT})[{content}]
+        """
