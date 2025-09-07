@@ -57,4 +57,4 @@ typst compile resume.typ
 
 Your results should look similar to mine, attached below:
 
-![Alt Text](img/sample.jpg)
+![screenshot](img/sample.png)
