@@ -11,7 +11,7 @@ needing to mess with LaTeX!
 1. Copy over the project via.
 
 ```
-git clone https://github.com/daviliuu/Resume.git
+git clone https://github.com/daviliuu/ResumeBuilder.git
 ```
 
 2. Download typst and rye for your operating system:
