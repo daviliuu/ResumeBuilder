@@ -1,0 +1,27 @@
+[project]
+name = "resume"
+version = "0.1.0"
+description = "Resume builder using Typst."
+authors = [
+    { name = "David Liu", email = "david@davidliu.dev" }
+]
+dependencies = []
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[project.scripts]
+"resume" = "resume:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/resume"]

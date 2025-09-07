@@ -1,0 +1,137 @@
+{
+    "header": {
+        "name": "David Liu",
+        "subheaders": [
+            "617-468-8701",
+            "contact@davidliu.dev",
+            "linkedin.com/in/contact-david-liu",
+            "github.com/daviliuu"
+        ]
+    },
+    "education": {
+        "school": "Northeastern University",
+        "graduation": "May 2027",
+        "degree": "Bachelors of Science in Computer Engineering and Computer Science",
+        "gpa": "3.85",
+        "courses": [
+             {
+                "name": "Computer Engineering",
+                "items": [
+                    "Electronics",
+                    "Digital Design & Computer Organization",
+                    "Circuits & Signals"
+                ]
+            },
+            {
+                "name": "Computer Science",
+                "items": [
+                    "Systems",
+                    "Object Oriented Design",
+                    "Algorithms",
+                    "Logic & Computation"
+                ]
+            },
+            {
+                "name": "Foundational Courses",
+                "items": [
+                    "Engineering Design",
+                    "Engineering Problem Solving and Computation",
+                    "Differential Equations and Linear Algebra",
+                    "Calculus 2",
+                    "Physics 2"
+                ]
+            }
+        ]
+    },
+    "skills": [
+        {
+            "name": "Operating Systems",
+            "items": [
+                "Windows",
+                "Ubuntu",
+                "Arch Linux"
+            ]
+        },
+        {
+            "name": "Languages",
+            "items": [
+                "Python",
+                "Go",
+                "PostgreSQL",
+                "Java",
+                "C++"
+            ]
+        },
+        {
+            "name": "Developer Tools",
+            "items": [
+                "Vim",
+                "Git",
+                "Bash",
+                "Supabase"
+            ]
+        },
+        {
+            "name": "Libraries",
+            "items": [
+                "Streamlit",
+                "Vega-Altair",
+                "pandas",
+                "numpy",
+                "huh"
+            ]
+        }
+    ],
+    "experience": [
+        {
+            "company": "Smartleaf",
+            "location": "Boston, MA",
+            "titles": [
+                "Part-time Junior Software Developer", 
+                "Full-time Software Developer Co-op"
+            ],
+            "time": [
+                "September 2025 -- Present", 
+                "January 2025 -- August 2025"
+            ],
+            "status": "",
+            "items": [
+                "Optimized model backtesting codebase written in R, decreasing runtime by 34%. Added 540 unit tests and fixed existing broken tests in legacy test suite.",
+                "Rewrote Perl, Python, and R scripts in Go, yielding upwards of an 18x+ reduction in runtime.",
+                "Rewrote and maintained a regression testing program in Golang. Implemented QoL features and CLI using Charm’s Huh library. Decreased runtime by 10% and reduced dependency on Perl, Python, and R.",
+                "Fulfilled and expanded on feature requests. Integrated daily metrics, target template, and account tracking for internal client tracker. Introduced Zulip support for easily accessible notifications.",
+               "Fulfilled ticket requests from clients and senior developers."
+            ]
+        },
+        {
+            "company": "Amazon",
+            "location": "New York, NY",
+            "titles": [
+                "Apprentice Data Analyst"
+            ],
+            "time": [
+                "October 2021 -- October 2024"
+            ],
+            "status": "Part-time Remote",
+            "items": [
+                "Crafted 14 client-facing slide decks reflecting ROAS, Audience Segmentation, Long-term Impact, and other internal metrics for 11 clients of the Amazon Grocery team using PostgreSQL queries and Python notebooks.",
+                "Created 5 1P & 3P insights with 104 views and 19 downloads for the IMDb team. 1P data collected using PostgreSQL queries and Tableau. 3P data collected from GWI and MRI-Simmons.",
+                "Maintained internal web application tracking project status built using Python and Streamlit.",
+                "Created and documented an internal query analysis web application built using Python, Streamlit, Vega-Altair, and pandas.",
+                "Fulfilled insight ticket requests from Ad Media Managers and Sales.",
+                "Updated SCRUM project statuses and milestones hosted on Salesforce"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "Kino",
+            "tools": ["Supabase", "PostgreSQL", "Python"],
+            "time": "May 2024 -- December 2024",
+            "items": [
+                "Designed and implemented the PostgreSQL database for storing movie and user data",
+                "Automated data aggregation and storage of publicly available data using Python."
+            ]
+        }
+    ]
+}
