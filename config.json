@@ -1,4 +1,15 @@
 {
+    "settings": {
+        "margins": 1,
+        "font_size": 11,
+        "part_order": [
+            "header",
+            "education",
+            "skills",
+            "experience",
+            "projects"
+        ]
+    },
     "header": {
         "name": "Required",
         "subheader1": [
