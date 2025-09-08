@@ -38,10 +38,12 @@ sudo apt install typst rye
 yay -S typst rye
 ```
 
-3. Modify the config.json file to fit your profile! The parser is relatively
-modular, so long as your keys are the same as the ones in the template. You
-can add or remove experiences, skills, or projects! There is an arbitrary limit 
-of 1 education section, though, and will be patched out later.
+3. Modify the config.json file to fit your profile! You can add or remove the 
+education, experiences, skills, or projects sections! It's fairly modular, 
+with required sections marked as "Required" if you choose to include the 
+section in your resume. i.e. the name of the school, graduation date, and 
+degree program are required fields if you choose to include an *Education* 
+section on your resume.
 
 4. Run the project via rye
 ```
