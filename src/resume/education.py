@@ -34,12 +34,12 @@ class Education(ResumePart):
                 text()[
                     #set align(right)
                     {items["graduation"]} \\
-                    GPA: {items["gpa"]}
+                    #text(weight: "bold")[GPA: {items["gpa"]}]
                 ],
             )"""
             if len(items["courses"]) > 0:
                 inline = const.INLINE_HEADER
-                content += f"""#text(weight: "bold", {inline})[Coursework]"""
+                content += f"""#text({inline})[Coursework]"""
                 content +=  "\\ \n"
                 for course_map in items["courses"]:
                     name = course_map["name"]

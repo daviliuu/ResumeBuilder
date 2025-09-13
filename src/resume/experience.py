@@ -38,7 +38,7 @@ class Experience(ResumePart):
             if len(items) > 0:
                 content += "#list(\n"
                 for item in items:
-                    content += f"[{item}],\n"
+                    content += f"[{utils.convert_bold(item)}],\n"
                 content += ")\n"
 
         section = f"""

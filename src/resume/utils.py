@@ -1,4 +1,5 @@
 import resume.constants as const
+import re as regex
 
 def create_heading(header: str):
     return f"""
@@ -9,3 +10,10 @@ def create_heading(header: str):
     ]
     """
 
+def convert_bold(text: str):
+    """
+    Converts **foo bar** to #emph()[foo bar]
+    """
+    pattern = r"\*\*(.*?)\*\*"
+    replacement = r"""#text(weight: "bold")[\1]"""
+    return regex.sub(pattern, replacement, text)
